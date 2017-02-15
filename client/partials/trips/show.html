@@ -1,0 +1,23 @@
+<div ng-controller="tripsController as TC" ng-init="TC.showTrip()">
+
+  <div id="show_delete">
+    <a href="#" ng-click="TC.DeleteTrip(TC.OneTrip._id)"><p>Delete Trip</p></a>
+
+  </div>
+
+<div id="show_info">
+  <h1>{{TC.OneTrip.name}}</h1>
+  <h4>{{TC.OneTrip.city}}</h4>
+  <h4>{{TC.OneTrip.country}}</h4>
+  <!-- <h4>{{TC.OneTrip.date}}</h4> -->
+  <a href="/#!/trips"><h4>Back<h4></a>
+</div>
+
+<a href="/#!/trips/{{TC.OneTrip._id}}/groupchat">Enter a groupchat!</a>
+
+
+
+
+
+
+</div>

@@ -1,0 +1,23 @@
+#new_trip_button h4 {
+  display: inline-block;
+  margin-right: 10px;
+}
+.nav-wrapper {
+  background-color: rgba(33, 243, 196, 0.88);
+}
+.material-icons{
+  background-color: rgba(33, 243, 196, 0.88);
+
+}
+#show_info{
+  display: inline-block;
+}
+#show_delete{
+  margin-left: 525px;
+}
+
+#chat{
+  width: 800px;
+  height: 500px;
+  background-color: #39e3bb;
+}

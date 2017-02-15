@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-App="myApp">
+<head>
+	<title>Login registration</title>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="socket.io/socket.io.js">
+
+	</script>
+
+	<script src="angular/angular.js"></script>
+	<script src="angular-route/angular-route.js"></script>
+	<script src="angular-cookies/angular-cookies.js"></script>
+	<script src="angular-socket-io/socket.js"></script>
+
+
+	<script src="static/js/AppMain.js"></script>
+
+	<script src="static/js/usersController.js"></script>
+	<script src="static/js/tripsController.js"></script>
+	<script src="static/js/chatsController.js"></script>
+
+	<script src="static/js/usersFactory.js"></script>
+	<script src="static/js/tripsFactory.js"></script>
+	<script src="static/js/chatsFactory.js"></script>
+	<script src="socket.io/socket.io.js"></script>
+
+	<link rel="stylesheet" href="static/css/style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+	<nav>
+    <div class="nav-wrapper">
+      <a href="/#!/info" class="brand-logo">TripSpot!</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="/#!/login">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+<!-- rendering all partials below -->
+	<div ng-view="">
+
+	</div>
+
+</body>
+</html>
